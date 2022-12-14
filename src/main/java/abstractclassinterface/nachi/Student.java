@@ -14,6 +14,6 @@ package abstractclassinterface.nachi;
 		this.name=name;
 		this.age=age;
 		this.dept=dept;
-		System.out.println(rollno+ " "+name+" "+age+" "+dept);
+		System.out.println(rollno+" "+name+" "+age+" "+dept);
 	}
 }
