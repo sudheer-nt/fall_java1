@@ -1,4 +1,4 @@
-package accessmodifierscharanpackage;
+package accessmodifiers.charan;
 
 public class DeclaredAsProtected {
 
