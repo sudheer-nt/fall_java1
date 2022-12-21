@@ -16,8 +16,8 @@ public class ThrowsKeyWord {
 
 	public static void main(String[] args) {
 
-		ThrowException t = new ThrowException();
-		t.overs(5);
+		
+		overs(5);
 		
 
 	}
