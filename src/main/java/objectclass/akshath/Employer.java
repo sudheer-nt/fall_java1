@@ -7,13 +7,6 @@ class Employer {
         this.name=name;
         this.id=id;
     }
-    @Override
-    public String toString() {
-        return "Employer{" + "name='" + name + '\'' + ", id  =" + id + '}';
-    }
-}
-
-public class Sample2 {
     public static void main(String[]args){
         Employer emp=new Employer("Developer",100);
             System.out.println("employer details are:"+ emp );
