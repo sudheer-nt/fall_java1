@@ -1,29 +1,22 @@
 package objectclass.akshath;
 //using toString method
+class Employer {
+    String name;
+    int id ;
+    Employer(String name,int id){
+        this.name=name;
+        this.id=id;
+    }
+    @Override
+    public String toString() {
+        return "Employer{" + "name='" + name + '\'' + ", id  =" + id + '}';
+    }
+}
 
 public class Sample2 {
-    int empId;
-    String empName;
-    public int getEmpId() {
-        return empId;
-    }
-    public void setEmpId(int empId) {
-        this.empId = empId;
-    }
-    public String getEmpName() {
-        return empName;
-    }
-    public void setEmpName(String empName) {
-        this.empName = empName;
-    }
-    public Sample2(int empId, String empName) {
-        this.empId = empId;
-        this.empName = empName;
-    }
-
     public static void main(String[]args){
-        Sample2 emp=new Sample2(100,"Developer");
-            System.out.println(emp.toString());
-    }}
-
+        Employer emp=new Employer("Developer",100);
+            System.out.println("employer details are:"+ emp );
+    }
+}
 
