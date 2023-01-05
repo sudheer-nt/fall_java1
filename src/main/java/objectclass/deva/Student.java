@@ -12,7 +12,7 @@ public class Student {
 		
 		vikky.rollno = 2324;
 		dev.gender = "male";
-		vikky.course = "civil";
+		//vikky.course = "civil";
 		vikky.exam ="maths";
 		
 		System.out.println("vikky.rollno");
