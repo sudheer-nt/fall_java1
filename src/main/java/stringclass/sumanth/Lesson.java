@@ -14,8 +14,9 @@ public class Lesson {
 		{
 		String summer = new String(" Hot Weather");
 		String winter = new String(" Its to cool in winter");
-		
+		String rainyseason = new String("rainy season");
 		
 		System.out.println(summer);
-		System.out.println(winter); }}}
+		System.out.println(winter);
+		System.out.println(rainyseason);}}}
 
