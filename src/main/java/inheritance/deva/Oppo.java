@@ -2,10 +2,15 @@ package inheritance.deva;
 
 public class Oppo extends Mobile {
 	String name3 = "working";
-	public void workingfine() {
+	public void workingfine() { 
+		System.out.println("working method in oppo");
+		
+	}
+		public static void main (String []args) { 
 		Oppo o = new Oppo();
 		o.workingfine();
-		System.out.println("everything is fine");
+		o.displayscreen();
+		System.out.println("everything is fine in oppo");
 		
 	}
 
