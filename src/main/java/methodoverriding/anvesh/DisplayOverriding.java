@@ -1,4 +1,8 @@
 package methodoverriding.anvesh;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 506791814566af1d6f481907008eb99aa7e26e5e
 public class DisplayOverriding extends Family {
      public void kids()
      {
