@@ -3,10 +3,10 @@ import java.util.ArrayList;
 
 
 
-public class Collectionsmain extends Collectionsdemo {
+public class CollectionsMain {
 
 	public static void main(String[] args) {
-		Collectionsdemo c = new Collectionsdemo();
+		CollectionsDemo c = new CollectionsDemo();
 	    ArrayList<String> a = new ArrayList<String>();
 	    a.add("Anvesh");
 	    a.add("Kiran");
