@@ -1,6 +1,6 @@
 package exceptions.anvesh;
 
-public class main extends Dividebyzero {
+public class Main  {
 	public static void main(String args[])
 	{
 		Dividebyzero d = new Dividebyzero();
