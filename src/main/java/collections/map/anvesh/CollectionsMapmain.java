@@ -1,7 +1,7 @@
 package collections.map.anvesh;
 import java.util.HashMap;
 
-public class CollectionsMapmain extends CollectionsMapdemo {
+public class CollectionsMapmain {
 
 	public static void main(String[] args) {
 		CollectionsMapdemo c = new CollectionsMapdemo();
