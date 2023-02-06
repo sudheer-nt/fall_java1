@@ -5,7 +5,6 @@ import java.util.Map;
 
 public class CollectionsDemoHashMap {
 
-	private static char[] i;
 
 	public static void main(String[] args) {
 		
